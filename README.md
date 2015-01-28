@@ -1,6 +1,8 @@
 # Guard::Gulp
 
-TODO: Write a gem description
+A plugin for guard to run gulp
+After a couple time of thinking. I found it to be useless.
+Because gulp have `gulp.watch()`. But I have finished this....
 
 ## Installation
 
@@ -20,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Example:
+
+```ruby
+guard :Gulp do
+  watch(/Gulpfile\..*/)
+end
+```
 
 ## Contributing
 
