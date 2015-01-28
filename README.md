@@ -1,7 +1,9 @@
 # Guard::Gulp
 
-A plugin for guard to run gulp
+A plugin for guard to run gulp.
+
 After a couple time of thinking. I found it to be useless.
+
 Because gulp have `gulp.watch()`. But I have finished this....
 
 ## Installation
